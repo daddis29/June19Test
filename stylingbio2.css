@@ -1,13 +1,21 @@
-
-        h1 {color: violet;
+div {
+    column-count: 3;
+  }
+        
+        h1 {color: black;
             text-decoration-style: emphasis;
             font-size: 48px;
             font-family: sans-serif;
+            column-span: all;
+            text-align: center;
+            background-color: violet;
             } 
             
             h2 {color: turquoise;
             font-size: 40px;
             font-family: sans-serif;
+            text-align: center;
+            column-span: all;
             }
     
             p {color: green;
